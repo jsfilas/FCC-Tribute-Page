@@ -52,8 +52,10 @@ a {
   font-color: black;
   text-align: center;
   position: absolute;
-  padding-top: 200px;
+  
   padding-right: 1350px;
+  margin-bottom: -10;
+    width: 350px;
   
 }
 
@@ -72,7 +74,7 @@ a {
 }
 
 .albums {
-  margin-left: 300px;
+  margin-left: 15px;
   
 }
 
@@ -192,13 +194,6 @@ iframe {
   text-align: center;
 }
 
-@media screen and (max-width:320px) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
-} 
-
-@media screen and (min-width:320px) and (max-width:640px) {
-  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-} 
 
 
 .logic-words-mobile {
@@ -230,6 +225,7 @@ iframe {
     padding: 10px;
     position: relative;
     background: #CCC;
+    width: 100%;
   }
   h1 {
    font-size: 26px;
